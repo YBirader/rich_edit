@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rich Text Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b71bce24d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Rich Text Editor</h1>
+    </header>
+    <article class="text-box">
+      <div class="buttons">
+        <button class="primary-btn" data-type="bold"><i class="fa-solid fa-bold"></i></button>
+        <button class="primary-btn" data-type="italic"><i class="fa-solid fa-italic"></i></button>
+        <button class="primary-btn" data-type="underline"><i class="fa-solid fa-underline"></i></button>
+        <button class="primary-btn" data-type="strikeThrough"><i class="fa-solid fa-strikethrough"></i></button>
+        <button class="primary-btn" data-type="createLink"><i class="fa-solid fa-link"></i></button>
+        <button class="primary-btn" data-type="insertUnorderedList"><i class="fa-solid fa-list"></i></button>
+        <button class="primary-btn" data-type="insertOrderedList"><i class="fa-solid fa-list-ol"></i></button>
+        <button class="primary-btn" data-type="justifyLeft"><i class="fa-solid fa-align-left"></i></button>
+        <button class="primary-btn" data-type="justifyCenter"><i class="fa-solid fa-align-center"></i></button>
+        <button class="primary-btn" data-type="justifyRight"><i class="fa-solid fa-align-right"></i></button>
+        <button class="primary-btn" data-type="justifyFull"><i class="fa-solid fa-align-justify"></i></button>
+      </div>
+      <div class="content-box" contenteditable=""></div>
+    </article>
+  </body>
+</html>
