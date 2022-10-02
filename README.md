@@ -1,0 +1,1 @@
+A simple rich text editor written in HTML, CSS, and vanilla JS.
